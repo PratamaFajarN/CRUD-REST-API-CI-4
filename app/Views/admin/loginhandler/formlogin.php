@@ -141,6 +141,8 @@
                 })
             },
             error: function () {
+                ({
+                    icon: 'error',
                     title: 'Oops...',
                     text: 'Something went wrong!',
 
