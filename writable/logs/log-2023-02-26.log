@@ -1,0 +1,1341 @@
+CRITICAL - 2023-02-26 03:31:23 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/LoginController::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/LoginController::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('C:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 03:32:41 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/LoginController::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/LoginController::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('C:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 03:34:10 --> Class "App\Controllers\Admin\BaseController" not found
+in APPPATH\Controllers\Admin\LoginController.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin\\LoginController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\LoginController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\LoginController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\LoginController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 03:41:19 --> Invalid file: "admin.loginhandler.index"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.loginhandler.index')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin.loginhandler.index', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(9): view('admin.loginhandler.index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 04:36:35 --> Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ROOTPATH\\public', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(9): view('ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 04:44:10 --> Invalid file: "admin/loginhandler/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/loginhandler/form.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/loginhandler/form', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(9): view('admin/loginhandler/form')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:36:18 --> Invalid file: "crud/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crud/register.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crud/register', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(17): view('crud/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:37:58 --> Invalid file: "crud/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crud/register.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crud/register', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(17): view('crud/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:38:16 --> Invalid file: "crud/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crud/register.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crud/register', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(17): view('crud/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:38:25 --> Invalid file: "crud/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crud/register.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crud/register', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(17): view('crud/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:38:49 --> Invalid file: "/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/register.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/register', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(17): view('/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:39:00 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(17): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:43:10 --> Call to undefined method App\Controllers\Admin\LoginController::response_json()
+in APPPATH\Controllers\Admin\LoginController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 07:50:42 --> Call to undefined method App\Controllers\Admin\LoginController::response_json()
+in APPPATH\Controllers\Admin\LoginController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 08:14:53 --> Call to undefined method App\Controllers\Admin\LoginController::respond()
+in APPPATH\Controllers\Admin\LoginController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 08:18:55 --> Call to undefined method App\Controllers\Admin\LoginController::respond()
+in APPPATH\Controllers\Admin\LoginController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 08:20:03 --> Call to undefined method CodeIgniter\HTTP\Response::json()
+in APPPATH\Controllers\Admin\LoginController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 08:20:33 --> Call to undefined method CodeIgniter\HTTP\Response::json()
+in APPPATH\Controllers\Admin\LoginController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 08:23:46 --> Undefined property: App\Controllers\Admin\LoginController::$load
+in APPPATH\Controllers\Admin\LoginController.php on line 21.
+ 1 APPPATH\Controllers\Admin\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\LoginController::$load', 'APPPATH\\Controllers\\Admin\\LoginController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 08:24:29 --> Call to undefined method App\Controllers\Admin\LoginController::respond()
+in APPPATH\Controllers\Admin\LoginController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:51:34 --> mysqli_sql_exception: Unknown column 'email from' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:51:34 --> Unknown column 'email from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `email from` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:52:45 --> mysqli_sql_exception: Unknown column 'from' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:52:46 --> Unknown column 'from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `email`, `from` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:52:55 --> mysqli_sql_exception: Unknown column 'email. from' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:52:55 --> Unknown column 'email. from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `email`.` from` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:53:01 --> mysqli_sql_exception: Unknown column 'fullname from' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:53:01 --> Unknown column 'fullname from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname from` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:53:03 --> mysqli_sql_exception: Unknown column 'fullname from' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:53:03 --> Unknown column 'fullname from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname from` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:53:12 --> mysqli_sql_exception: Unknown column 'from' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:53:12 --> Unknown column 'from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `from` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:53:19 --> mysqli_sql_exception: Unknown column 'From' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:53:19 --> Unknown column 'From' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `From` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:53:45 --> mysqli_sql_exception: Unknown column 'email From' in 'field list' in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fullnam...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:53:45 --> Unknown column 'email From' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `email From` `users`
+FROM `users`', [], false)
+ 2 APPPATH\Models\Login_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 08:59:52 --> mysqli_sql_exception: Table 'test_ci.mytable' doesn't exist in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 08:59:53 --> Table 'test_ci.mytable' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mytable`', [], false)
+ 2 APPPATH\Models\Login_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(31): App\Models\Login_Model->get_user()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:00:05 --> Call to undefined method CodeIgniter\HTTP\Response::json()
+in APPPATH\Controllers\Admin\LoginController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:08:42 --> syntax error, unexpected variable "$db", expecting "function" or "const"
+in APPPATH\Config\Database.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Database.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(251): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(70): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 5 SYSTEMPATH\Debug\Toolbar.php(65): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 6 SYSTEMPATH\Config\Services.php(723): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 8 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 9 SYSTEMPATH\Config\Services.php(718): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+10 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::toolbar()
+11 APPPATH\Config\Events.php(46): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+12 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+13 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:08:49 --> Constant expression contains invalid operations
+in APPPATH\Config\Database.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-26 09:16:41 --> Undefined property: App\Controllers\Admin\LoginController::$db
+in APPPATH\Controllers\Admin\LoginController.php on line 22.
+ 1 APPPATH\Controllers\Admin\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\LoginController::$db', 'APPPATH\\Controllers\\Admin\\LoginController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:16:56 --> Undefined property: App\Controllers\Admin\LoginController::$db
+in APPPATH\Controllers\Admin\LoginController.php on line 22.
+ 1 APPPATH\Controllers\Admin\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\LoginController::$db', 'APPPATH\\Controllers\\Admin\\LoginController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:17:10 --> Undefined property: App\Controllers\Admin\LoginController::$db
+in APPPATH\Controllers\Admin\LoginController.php on line 21.
+ 1 APPPATH\Controllers\Admin\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\LoginController::$db', 'APPPATH\\Controllers\\Admin\\LoginController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:17:23 --> Undefined property: App\Controllers\Admin\LoginController::$db
+in APPPATH\Controllers\Admin\LoginController.php on line 21.
+ 1 APPPATH\Controllers\Admin\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\LoginController::$db', 'APPPATH\\Controllers\\Admin\\LoginController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:22:39 --> Call to undefined method App\Models\Login_Model::get_user
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\LoginController.php(26): CodeIgniter\Model->__call('get_user', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:23:11 --> view(): Argument #2 ($data) must be of type array, App\Models\Login_Model given, called in C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php on line 29
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Admin\LoginController.php(29): view('admin/loginhandler/formlogin', Object(App\Models\Login_Model))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:23:44 --> Undefined variable $data
+in APPPATH\Controllers\Admin\LoginController.php on line 26.
+ 1 APPPATH\Controllers\Admin\LoginController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Admin\\LoginController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:34:27 --> Cannot call constructor
+in APPPATH\Controllers\Admin\LoginController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:34:42 --> Undefined variable $data
+in APPPATH\Controllers\Admin\LoginController.php on line 29.
+ 1 APPPATH\Controllers\Admin\LoginController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Admin\\LoginController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:41:21 --> Call to undefined method CodeIgniter\HTTP\Response::json()
+in APPPATH\Controllers\Admin\LoginController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:42:39 --> Undefined variable $news
+in APPPATH\Controllers\Admin\LoginController.php on line 32.
+ 1 APPPATH\Controllers\Admin\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'APPPATH\\Controllers\\Admin\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:43:18 --> Undefined variable $news
+in APPPATH\Controllers\Admin\LoginController.php on line 32.
+ 1 APPPATH\Controllers\Admin\LoginController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'APPPATH\\Controllers\\Admin\\LoginController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 09:44:20 --> Undefined variable $news
+in APPPATH\Controllers\Admin\LoginController.php on line 33.
+ 1 APPPATH\Controllers\Admin\LoginController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'APPPATH\\Controllers\\Admin\\LoginController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 09:57:33 --> mysqli_sql_exception: Column 'fullname' cannot be null in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\test_ci\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\test_ci\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\test_ci\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+#9 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#10 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-02-26 09:57:33 --> Column 'fullname' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`fullname`, `email`) VALUES (:fullname:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\LoginController.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 11:02:02 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 11:05:09 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 11:08:22 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 11:09:33 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 11:11:31 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:13:32 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:16:22 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:17:01 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:20:14 --> Too few arguments to function App\Controllers\Admin\LoginController::__construct(), 0 passed in C:\laragon\www\test_ci\system\CodeIgniter.php on line 906 and exactly 2 expected
+in APPPATH\Controllers\Admin\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:20:31 --> Too few arguments to function App\Controllers\Admin\LoginController::__construct(), 0 passed in C:\laragon\www\test_ci\system\CodeIgniter.php on line 906 and exactly 2 expected
+in APPPATH\Controllers\Admin\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:20:46 --> Too few arguments to function App\Controllers\Admin\LoginController::__construct(), 0 passed in C:\laragon\www\test_ci\system\CodeIgniter.php on line 906 and exactly 2 expected
+in APPPATH\Controllers\Admin\LoginController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:25:31 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 15:26:45 --> Call to undefined method App\Controllers\Admin\LoginController::respondCreated()
+in APPPATH\Controllers\Admin\LoginController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-26 15:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 15:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 15:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 15:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 15:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 15:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-26 16:07:00 --> Call to undefined method App\Models\Login_Model::get_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\LoginController.php(34): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:07:41 --> Call to undefined method App\Models\Login_Model::get_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\LoginController.php(34): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:08:21 --> Call to undefined method App\Models\Login_Model::get_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\LoginController.php(34): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-26 16:09:16 --> mysqli_sql_exception: Table 'test_ci.user' doesn't exist in C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\test_ci\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\test_ci\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\test_ci\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\test_ci\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\test_ci\app\Models\Login_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\test_ci\app\Controllers\Admin\LoginController.php(34): App\Models\Login_Model->get_data('fajarocta40@gma...', 'fajarocta123')
+#6 C:\laragon\www\test_ci\system\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+#7 C:\laragon\www\test_ci\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+#8 C:\laragon\www\test_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\test_ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\test_ci\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-02-26 16:09:17 --> Table 'test_ci.user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = :user_email:
+AND `user_pass` = :user_pass:', [...], false)
+ 2 APPPATH\Models\Login_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\LoginController.php(34): App\Models\Login_Model->get_data('fajarocta40@gmail.com', 'fajarocta123')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:09:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\LoginController.php on line 36.
+ 1 APPPATH\Controllers\Admin\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:11:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\LoginController.php on line 36.
+ 1 APPPATH\Controllers\Admin\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:15:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\LoginController.php on line 36.
+ 1 APPPATH\Controllers\Admin\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:15:28 --> Call to undefined method App\Models\Login_Model::get_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\LoginController.php(34): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:20:06 --> Call to a member function where() on string
+in APPPATH\Controllers\Admin\LoginController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-26 16:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-26 16:30:31 --> Invalid file: "/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(43): view('/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-26 16:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-26 16:30:55 --> Invalid file: "admin/loginhandler/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/loginhandler/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/loginhandler/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin\LoginController.php(43): view('admin/loginhandler/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\LoginController->loginAuth()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-26 16:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-26 16:33:42 --> Class "App\Controllers\Admin\Login_model" not found
+in APPPATH\Controllers\Admin\DashboardController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\DashboardController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:34:19 --> Invalid file: "admin/dashborad/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashborad/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashborad/index', [], true)
+ 3 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashborad/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 16:35:19 --> Invalid file: "admin/dashborad/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashborad/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashborad/index', [], true)
+ 3 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashborad/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-26 16:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-26 16:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-26 17:27:50 --> Invalid file: "admin/getdata/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/getdata/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/getdata/index', [], true)
+ 3 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/getdata/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:31:34 --> Undefined variable $form_select_outlet
+in APPPATH\Views\admin\dashboard\getdata.php on line 20.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $form_select_outlet', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:31:49 --> Undefined variable $form_select_outlet
+in APPPATH\Views\admin\dashboard\getdata.php on line 20.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $form_select_outlet', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:31:58 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\dashboard\getdata.php on line 160.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:32:28 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\dashboard\getdata.php on line 160.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:32:55 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\dashboard\getdata.php on line 149.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 149)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:48:49 --> Undefined variable $getemploye
+in APPPATH\Views\admin\dashboard\getdata.php on line 108.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getemploye', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 17:56:05 --> Undefined variable $getemploye
+in APPPATH\Views\admin\dashboard\getdata.php on line 104.
+ 1 APPPATH\Views\admin\dashboard\getdata.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getemploye', 'APPPATH\\Views\\admin\\dashboard\\getdata.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\getdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard/getdata', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(15): view('admin/dashboard/getdata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:03:07 --> Undefined property: App\Controllers\Admin\DashboardController::$db
+in APPPATH\Controllers\Admin\DashboardController.php on line 25.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\DashboardController::$db', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:10:35 --> Undefined property: App\Controllers\Admin\DashboardController::$db
+in APPPATH\Controllers\Admin\DashboardController.php on line 27.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\DashboardController::$db', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:11:16 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Admin\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:11:28 --> Undefined property: App\Controllers\Admin\DashboardController::$db
+in APPPATH\Controllers\Admin\DashboardController.php on line 27.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\DashboardController::$db', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:11:55 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Admin\DashboardController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:13:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::all()
+in APPPATH\Controllers\Admin\DashboardController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:23:23 --> Array to string conversion
+in APPPATH\Controllers\Admin\DashboardController.php on line 30.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:46:21 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 40.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:48:03 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 40.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:49:35 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:50:16 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:52:59 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 42.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:53:57 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 42.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:55:34 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 42.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:55:45 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 42.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:56:55 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:57:56 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:59:05 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 18:59:31 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:00:04 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 42.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:01:08 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:01:54 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 40.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(40): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:03:56 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:05:20 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 41.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:07:48 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 48.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:08:59 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:09:00 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:10:26 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:11:07 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:15:08 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:15:35 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:16:37 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:17:28 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:18:34 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:21:12 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:23:49 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:24:02 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:24:38 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:25:09 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:26:13 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:27:31 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 49.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(49): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:28:49 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 49.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(49): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:28:57 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 49.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(49): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:29:47 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 49.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(49): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:31:45 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 49.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(49): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:32:15 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 49.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(49): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:33:44 --> Undefined property: App\Controllers\Admin\DashboardController::$db
+in APPPATH\Controllers\Admin\DashboardController.php on line 44.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\DashboardController::$db', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:35:38 --> Class "App\Controllers\Admin\TestModel" not found
+in APPPATH\Controllers\Admin\DashboardController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:36:02 --> Class "App\Controllers\Admin\TestModel" not found
+in APPPATH\Controllers\Admin\DashboardController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:36:25 --> Undefined variable $usersModel
+in APPPATH\Controllers\Admin\DashboardController.php on line 46.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersModel', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:36:41 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin\DashboardController.php on line 48.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(48): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:36:57 --> Undefined variable $fajar
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fajar', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:37:01 --> Undefined variable $fajar
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fajar', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:37:28 --> Attempt to read property "fullname" on array
+in APPPATH\Controllers\Admin\DashboardController.php on line 50.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fullname" on array', 'APPPATH\\Controllers\\Admin\\DashboardController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-26 19:40:49 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Admin\DashboardController.php on line 64.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(64): array_push(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\DashboardController->getdatauserpost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
