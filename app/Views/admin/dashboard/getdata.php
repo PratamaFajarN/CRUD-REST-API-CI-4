@@ -84,7 +84,47 @@
 
 <?= $this->section('js') ?>
 
+<script>
+      function update() {
+                            const fullname = $('#fullname').val()
+                            const id = $('#iduser').val()
+                            const email = $('#email').val()
 
+
+                            console.log(fullname);
+                            console.log(email);
+
+                            $.ajax({
+                                url: "/updatedatauser",
+                                type: 'post',
+                                data: {
+                                    id_user: id,
+                                    fullnames: fullname,
+                                    emails: email,
+                                },
+                                success: function (data, status) {
+                                      vmData.table.clear().draw();
+                                    Swal.fire({
+                                        position: 'center',
+                                        icon: 'success',
+                                        title: 'Your work has been saved',
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    })
+                                     vmData.appendTable();
+                                },
+                                error: function () {
+                                     Swal.fire({
+                                        icon: 'error',
+                                        title: 'Oops...',
+                                        text: 'Something went wrong!',
+
+                                    })
+                                }
+
+                            });
+                        }
+</script>
 <script>
     var vmData = new Vue({
         el: "#appgetdata",
@@ -165,43 +205,7 @@
                             $('#myInput').trigger('focus')
                         })
 
-                        function update() {
-                            const fullname = $('#fullname').val()
-                            const id = $('#iduser').val()
-                            const email = $('#email').val()
-
-
-                            console.log(fullname);
-                            console.log(email);
-
-                            $.ajax({
-                                url: "/updatedatauser",
-                                type: 'post',
-                                data: {
-                                    id_user: id,
-                                    fullnames: fullname,
-                                    emails: email,
-                                },
-                                success: function (data, status) {
-                                    Swal.fire({
-                                        position: 'center',
-                                        icon: 'success',
-                                        title: 'Your work has been saved',
-                                        showConfirmButton: false,
-                                        timer: 1500
-                                    })
-                                },
-                                error: function () {
-                                     Swal.fire({
-                                        icon: 'error',
-                                        title: 'Oops...',
-                                        text: 'Something went wrong!',
-
-                                    })
-                                }
-
-                            });
-                        }
+                      
 
 
                     });
