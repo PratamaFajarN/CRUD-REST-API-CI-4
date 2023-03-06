@@ -52,6 +52,15 @@
                         </small>
                     </p>
                 </div>
+                <?php if (session()->getFlashdata('error')){ ?>
+                <div class="alert alert-danger" role="alert">
+                    Email Atau password Salah
+                </div>
+                <?php } else if(session()->getFlashdata('succes')) {?>
+                <div class="alert alert-success" role="alert">
+                    Berhasil Login
+                </div>
+                <?php }?>
                 <form method="POST" action="<?= base_url('login'); ?>">
 
 

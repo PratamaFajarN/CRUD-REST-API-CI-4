@@ -32,14 +32,14 @@ class LoginController extends Controller{
 	    $user = $usersModel->where('email', $email)->first();
 
 	    if(empty($user)){
-	    	session()->setFlashdata('message', 'email atau Password Salah');
+	    	session()->setFlashdata('error', 'email atau Password Salah');
 	    	return redirect()->to('/');
 	    }
 	    if($user['password']!=$password){
-	    	session()->setFlashdata('message', 'email atau Password Salah');
+	    	session()->setFlashdata('error', 'email atau Password Salah');
 	    	return redirect()->to('/');
 	    }
-	    session()->set('email',$email);
+	    session()->set('succes',$email);
 	    return redirect()->to('dashboard');
         
      }
